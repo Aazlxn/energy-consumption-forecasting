@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-This project aims to forecast future energy consumption using historical data from 1985 to 2023. The primary goal is to develop models that can accurately predict future energy usage, which can be beneficial for energy planning, resource allocation, cost management, and policy-making.
+This project aims to forecast future energy consumption in Alberta using historical data from 1985 to 2023. The primary goal is to develop models that can accurately predict future energy usage, which can be beneficial for energy planning, resource allocation, cost management, and policy-making.
 
 We compare the performance of two models: ARIMA and LSTM. The project involves data preparation, model development, evaluation, and forecasting future energy consumption.
 
 ## Data Preparation
 
-The historical data includes total annual sales (in GWh) and the number of customers by market segment (Residential, Farm, Commercial, and Industrial) from 1985 to 2023. The data preparation steps involved:
+The historical data pulled from the Alberta Utilities Commission includes total annual sales (in GWh) and the number of customers by market segment (Residential, Farm, Commercial, and Industrial) from 1985 to 2023. The data preparation steps involved:
 
 1. **Loading Data**: The data was loaded from an Excel file.
 2. **Renaming and Cleaning Columns**: Columns were renamed for better readability, and non-numeric values were handled.
